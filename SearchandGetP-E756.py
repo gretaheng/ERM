@@ -5,13 +5,10 @@ import json
 import sys
 
 
-f=open("credential.txt.txt","r")
-lines=f.readlines()
-clientID=lines[0]
-secret=lines[1]
-principal_id=lines[2]
-principal_idns=lines[3]
-f.close()
+clientID = ''
+secret = ''
+principal_id = ''
+principal_idns = ''
 problem_l = []
 error_l=[]
 d = {}
